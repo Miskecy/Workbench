@@ -121,14 +121,23 @@
   <data name="BabyZeroTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\BabyZeroTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="increase_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\increase_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\add_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csv_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\csv_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\more_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="investment_portfolio_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\investment_portfolio_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="import_csv_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\import_csv_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="investment_portfolio_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\investment_portfolio_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="filter_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\filter_50pxl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\menu_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,11 +148,17 @@
   <data name="export_csv_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\export_csv_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="learning_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\learning_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu_squared_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\menu_squared_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="accounting_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\accounting_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_50px.pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\search_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\update_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="import_csv_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\import_csv_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +178,11 @@
   <data name="dollar_bitcoin_exchange_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\dollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\add_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\dsettings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="learning_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\learning_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delete_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\delete_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,11 +196,11 @@
   <data name="expand_arrow_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\expand_arrow_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="more_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\more_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="zero_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\zero-two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\dsettings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="expand_arrow_50pxd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\expand_arrow_50pxd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\settings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,11 +211,14 @@
   <data name="less_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\less_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_squared_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\menu_squared_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="filter_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\filter_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add_new_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\add_new_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse_arrow_50pxd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\collapse_arrow_50pxd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="collapse_arrow_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\collapse_arrow_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,10 +235,13 @@
   <data name="accounting_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\accounting_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="update_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\update_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="increase_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\increase_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zero_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\zero-two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="search_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\search_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csv_50px.png200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\csv_50px.png200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

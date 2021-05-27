@@ -30,13 +30,13 @@ namespace Workbench
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.gunaPanelSideMenu = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanelSideMenuContainer = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanelLogoMenuContainer = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanelMenuIcon = new Guna.UI.WinForms.GunaPanel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaPanel4 = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanelTopbar = new Guna.UI.WinForms.GunaPanel();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
@@ -49,7 +49,6 @@ namespace Workbench
             this.gunaRadioButton1 = new Guna.UI.WinForms.GunaRadioButton();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPanel5 = new Guna.UI.WinForms.GunaPanel();
-            this.gunaPanel4 = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanelSideMenuAdditional = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
@@ -76,6 +75,7 @@ namespace Workbench
             this.gunaPanelSideMenu.BackColor = System.Drawing.Color.White;
             this.gunaPanelSideMenu.Controls.Add(this.gunaPanelSideMenuContainer);
             this.gunaPanelSideMenu.Controls.Add(this.gunaPanelLogoMenuContainer);
+            this.gunaPanelSideMenu.Controls.Add(this.gunaPanel4);
             this.gunaPanelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaPanelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.gunaPanelSideMenu.Name = "gunaPanelSideMenu";
@@ -84,6 +84,7 @@ namespace Workbench
             // 
             // gunaPanelSideMenuContainer
             // 
+            this.gunaPanelSideMenuContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaPanelSideMenuContainer.Controls.Add(this.gunaButtonSettings);
             this.gunaPanelSideMenuContainer.Controls.Add(this.gunaButton3);
             this.gunaPanelSideMenuContainer.Controls.Add(this.gunaButtonTrades);
@@ -91,7 +92,7 @@ namespace Workbench
             this.gunaPanelSideMenuContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaPanelSideMenuContainer.Location = new System.Drawing.Point(0, 82);
             this.gunaPanelSideMenuContainer.Name = "gunaPanelSideMenuContainer";
-            this.gunaPanelSideMenuContainer.Size = new System.Drawing.Size(172, 668);
+            this.gunaPanelSideMenuContainer.Size = new System.Drawing.Size(171, 668);
             this.gunaPanelSideMenuContainer.TabIndex = 6;
             // 
             // gunaPanelLogoMenuContainer
@@ -100,12 +101,12 @@ namespace Workbench
             this.gunaPanelLogoMenuContainer.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaPanelLogoMenuContainer.Location = new System.Drawing.Point(0, 0);
             this.gunaPanelLogoMenuContainer.Name = "gunaPanelLogoMenuContainer";
-            this.gunaPanelLogoMenuContainer.Size = new System.Drawing.Size(172, 82);
+            this.gunaPanelLogoMenuContainer.Size = new System.Drawing.Size(171, 82);
             this.gunaPanelLogoMenuContainer.TabIndex = 6;
             // 
             // gunaPanelMenuIcon
             // 
-            this.gunaPanelMenuIcon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaPanelMenuIcon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaPanelMenuIcon.Controls.Add(this.gunaLabel2);
             this.gunaPanelMenuIcon.Controls.Add(this.gunaLabel1);
             this.gunaPanelMenuIcon.Controls.Add(this.gunaPictureBox1);
@@ -113,13 +114,15 @@ namespace Workbench
             this.gunaPanelMenuIcon.Location = new System.Drawing.Point(0, 0);
             this.gunaPanelMenuIcon.Name = "gunaPanelMenuIcon";
             this.gunaPanelMenuIcon.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
-            this.gunaPanelMenuIcon.Size = new System.Drawing.Size(172, 82);
+            this.gunaPanelMenuIcon.Size = new System.Drawing.Size(171, 82);
             this.gunaPanelMenuIcon.TabIndex = 7;
             // 
             // gunaLabel2
             // 
             this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaLabel2.Location = new System.Drawing.Point(118, 36);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(37, 15);
@@ -130,16 +133,25 @@ namespace Workbench
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaLabel1.Location = new System.Drawing.Point(77, 9);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(78, 17);
             this.gunaLabel1.TabIndex = 6;
             this.gunaLabel1.Text = "Workbench";
             // 
+            // gunaPanel4
+            // 
+            this.gunaPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaPanel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.gunaPanel4.Location = new System.Drawing.Point(171, 0);
+            this.gunaPanel4.Name = "gunaPanel4";
+            this.gunaPanel4.Size = new System.Drawing.Size(1, 750);
+            this.gunaPanel4.TabIndex = 1;
+            // 
             // gunaPanelTopbar
             // 
-            this.gunaPanelTopbar.BackColor = System.Drawing.Color.White;
+            this.gunaPanelTopbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaPanelTopbar.Controls.Add(this.gunaControlBox2);
             this.gunaPanelTopbar.Controls.Add(this.gunaImageButtonMenu);
             this.gunaPanelTopbar.Controls.Add(this.gunaControlBox1);
@@ -157,11 +169,11 @@ namespace Workbench
             this.gunaControlBox2.AnimationHoverSpeed = 0.07F;
             this.gunaControlBox2.AnimationSpeed = 0.03F;
             this.gunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
-            this.gunaControlBox2.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaControlBox2.IconSize = 15F;
             this.gunaControlBox2.Location = new System.Drawing.Point(884, -1);
             this.gunaControlBox2.Name = "gunaControlBox2";
-            this.gunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.gunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaControlBox2.OnHoverIconColor = System.Drawing.Color.White;
             this.gunaControlBox2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBox2.Size = new System.Drawing.Size(45, 37);
@@ -173,11 +185,11 @@ namespace Workbench
             this.gunaControlBox1.AnimationHoverSpeed = 0.07F;
             this.gunaControlBox1.AnimationSpeed = 0.03F;
             this.gunaControlBox1.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MaximizeBox;
-            this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaControlBox1.IconSize = 15F;
             this.gunaControlBox1.Location = new System.Drawing.Point(935, -1);
             this.gunaControlBox1.Name = "gunaControlBox1";
-            this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.White;
             this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBox1.Size = new System.Drawing.Size(45, 37);
@@ -197,11 +209,11 @@ namespace Workbench
             this.gunaControlBoxClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaControlBoxClose.AnimationHoverSpeed = 0.07F;
             this.gunaControlBoxClose.AnimationSpeed = 0.03F;
-            this.gunaControlBoxClose.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBoxClose.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaControlBoxClose.IconSize = 15F;
             this.gunaControlBoxClose.Location = new System.Drawing.Point(983, 0);
             this.gunaControlBoxClose.Name = "gunaControlBoxClose";
-            this.gunaControlBoxClose.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.gunaControlBoxClose.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaControlBoxClose.OnHoverIconColor = System.Drawing.Color.White;
             this.gunaControlBoxClose.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBoxClose.Size = new System.Drawing.Size(45, 37);
@@ -209,7 +221,7 @@ namespace Workbench
             // 
             // gunaPanelSetting
             // 
-            this.gunaPanelSetting.BackColor = System.Drawing.Color.White;
+            this.gunaPanelSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaPanelSetting.Controls.Add(this.gunaButtonSettingClose);
             this.gunaPanelSetting.Controls.Add(this.gunaLabel4);
             this.gunaPanelSetting.Controls.Add(this.gunaRadioButton3);
@@ -217,7 +229,6 @@ namespace Workbench
             this.gunaPanelSetting.Controls.Add(this.gunaRadioButton1);
             this.gunaPanelSetting.Controls.Add(this.gunaLabel3);
             this.gunaPanelSetting.Controls.Add(this.gunaPanel5);
-            this.gunaPanelSetting.Controls.Add(this.gunaPanel4);
             this.gunaPanelSetting.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaPanelSetting.Location = new System.Drawing.Point(172, 37);
             this.gunaPanelSetting.Name = "gunaPanelSetting";
@@ -228,7 +239,7 @@ namespace Workbench
             // 
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel4.ForeColor = System.Drawing.Color.Black;
+            this.gunaLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaLabel4.Location = new System.Drawing.Point(21, 69);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(64, 21);
@@ -237,11 +248,12 @@ namespace Workbench
             // 
             // gunaRadioButton3
             // 
-            this.gunaRadioButton3.BaseColor = System.Drawing.SystemColors.Control;
-            this.gunaRadioButton3.CheckedOffColor = System.Drawing.Color.Gray;
+            this.gunaRadioButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.gunaRadioButton3.Checked = true;
+            this.gunaRadioButton3.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaRadioButton3.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaRadioButton3.FillColor = System.Drawing.Color.White;
-            this.gunaRadioButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaRadioButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.gunaRadioButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaRadioButton3.Location = new System.Drawing.Point(23, 123);
             this.gunaRadioButton3.Name = "gunaRadioButton3";
             this.gunaRadioButton3.Size = new System.Drawing.Size(54, 20);
@@ -250,11 +262,11 @@ namespace Workbench
             // 
             // gunaRadioButton2
             // 
-            this.gunaRadioButton2.BaseColor = System.Drawing.SystemColors.Control;
-            this.gunaRadioButton2.CheckedOffColor = System.Drawing.Color.Gray;
+            this.gunaRadioButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.gunaRadioButton2.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaRadioButton2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaRadioButton2.FillColor = System.Drawing.Color.White;
-            this.gunaRadioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaRadioButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.gunaRadioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaRadioButton2.Location = new System.Drawing.Point(23, 149);
             this.gunaRadioButton2.Name = "gunaRadioButton2";
             this.gunaRadioButton2.Size = new System.Drawing.Size(62, 20);
@@ -263,11 +275,11 @@ namespace Workbench
             // 
             // gunaRadioButton1
             // 
-            this.gunaRadioButton1.BaseColor = System.Drawing.SystemColors.Control;
-            this.gunaRadioButton1.CheckedOffColor = System.Drawing.Color.Gray;
+            this.gunaRadioButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.gunaRadioButton1.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaRadioButton1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaRadioButton1.FillColor = System.Drawing.Color.White;
-            this.gunaRadioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaRadioButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.gunaRadioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaRadioButton1.Location = new System.Drawing.Point(23, 97);
             this.gunaRadioButton1.Name = "gunaRadioButton1";
             this.gunaRadioButton1.Size = new System.Drawing.Size(54, 20);
@@ -294,18 +306,9 @@ namespace Workbench
             this.gunaPanel5.Size = new System.Drawing.Size(1, 713);
             this.gunaPanel5.TabIndex = 2;
             // 
-            // gunaPanel4
-            // 
-            this.gunaPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaPanel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaPanel4.Location = new System.Drawing.Point(0, 0);
-            this.gunaPanel4.Name = "gunaPanel4";
-            this.gunaPanel4.Size = new System.Drawing.Size(1, 713);
-            this.gunaPanel4.TabIndex = 1;
-            // 
             // gunaPanelSideMenuAdditional
             // 
-            this.gunaPanelSideMenuAdditional.BackColor = System.Drawing.Color.White;
+            this.gunaPanelSideMenuAdditional.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaPanelSideMenuAdditional.Controls.Add(this.gunaPanel3);
             this.gunaPanelSideMenuAdditional.Dock = System.Windows.Forms.DockStyle.Right;
             this.gunaPanelSideMenuAdditional.Location = new System.Drawing.Point(1028, 37);
@@ -328,6 +331,7 @@ namespace Workbench
             // 
             // gunaPanelBodyContainer
             // 
+            this.gunaPanelBodyContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.gunaPanelBodyContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaPanelBodyContainer.Location = new System.Drawing.Point(344, 37);
             this.gunaPanelBodyContainer.Name = "gunaPanelBodyContainer";
@@ -349,14 +353,14 @@ namespace Workbench
             this.gunaButtonSettingClose.Image = global::Workbench.Properties.Resources.delete_50px_pngl;
             this.gunaButtonSettingClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.gunaButtonSettingClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.gunaButtonSettingClose.Location = new System.Drawing.Point(1, 0);
+            this.gunaButtonSettingClose.Location = new System.Drawing.Point(0, 0);
             this.gunaButtonSettingClose.Name = "gunaButtonSettingClose";
             this.gunaButtonSettingClose.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaButtonSettingClose.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButtonSettingClose.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaButtonSettingClose.OnHoverImage = global::Workbench.Properties.Resources.delete_50px;
             this.gunaButtonSettingClose.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButtonSettingClose.Size = new System.Drawing.Size(170, 45);
+            this.gunaButtonSettingClose.Size = new System.Drawing.Size(171, 45);
             this.gunaButtonSettingClose.TabIndex = 12;
             this.gunaButtonSettingClose.Text = "Settings";
             this.gunaButtonSettingClose.TextOffsetX = 15;
@@ -384,6 +388,7 @@ namespace Workbench
             this.gunaButtonSettings.Animated = true;
             this.gunaButtonSettings.AnimationHoverSpeed = 0.07F;
             this.gunaButtonSettings.AnimationSpeed = 0.03F;
+            this.gunaButtonSettings.BackColor = System.Drawing.Color.Transparent;
             this.gunaButtonSettings.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaButtonSettings.BorderColor = System.Drawing.Color.Black;
             this.gunaButtonSettings.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -396,15 +401,16 @@ namespace Workbench
             this.gunaButtonSettings.ImageSize = new System.Drawing.Size(25, 25);
             this.gunaButtonSettings.Location = new System.Drawing.Point(0, 623);
             this.gunaButtonSettings.Name = "gunaButtonSettings";
-            this.gunaButtonSettings.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaButtonSettings.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaButtonSettings.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButtonSettings.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaButtonSettings.OnHoverImage = global::Workbench.Properties.Resources.settings_50px;
             this.gunaButtonSettings.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButtonSettings.Size = new System.Drawing.Size(172, 45);
+            this.gunaButtonSettings.Size = new System.Drawing.Size(171, 45);
             this.gunaButtonSettings.TabIndex = 3;
             this.gunaButtonSettings.Text = "Settings";
             this.gunaButtonSettings.TextOffsetX = 15;
+            this.gunaButtonSettings.UseTransfarantBackground = true;
             this.gunaButtonSettings.Click += new System.EventHandler(this.gunaButtonSettings_Click);
             // 
             // gunaButton3
@@ -412,13 +418,13 @@ namespace Workbench
             this.gunaButton3.Animated = true;
             this.gunaButton3.AnimationHoverSpeed = 0.07F;
             this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BaseColor = System.Drawing.Color.White;
+            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaButton3.BorderColor = System.Drawing.Color.Black;
             this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton3.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaButton3.Image = global::Workbench.Properties.Resources.learning_50px;
             this.gunaButton3.ImageOffsetX = 12;
             this.gunaButton3.ImageSize = new System.Drawing.Size(25, 25);
@@ -429,7 +435,7 @@ namespace Workbench
             this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton3.OnHoverImage = global::Workbench.Properties.Resources.learning_50px_pngl;
             this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Size = new System.Drawing.Size(172, 45);
+            this.gunaButton3.Size = new System.Drawing.Size(171, 45);
             this.gunaButton3.TabIndex = 3;
             this.gunaButton3.Text = "Links";
             this.gunaButton3.TextOffsetX = 15;
@@ -439,13 +445,13 @@ namespace Workbench
             this.gunaButtonTrades.Animated = true;
             this.gunaButtonTrades.AnimationHoverSpeed = 0.07F;
             this.gunaButtonTrades.AnimationSpeed = 0.03F;
-            this.gunaButtonTrades.BaseColor = System.Drawing.Color.White;
+            this.gunaButtonTrades.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaButtonTrades.BorderColor = System.Drawing.Color.Black;
             this.gunaButtonTrades.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButtonTrades.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButtonTrades.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButtonTrades.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaButtonTrades.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButtonTrades.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.gunaButtonTrades.Image = global::Workbench.Properties.Resources.dollar_bitcoin_exchange_50px;
             this.gunaButtonTrades.ImageOffsetX = 12;
             this.gunaButtonTrades.ImageSize = new System.Drawing.Size(25, 25);
@@ -456,7 +462,7 @@ namespace Workbench
             this.gunaButtonTrades.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButtonTrades.OnHoverImage = global::Workbench.Properties.Resources.dollar_bitcoin_exchange_50pxl;
             this.gunaButtonTrades.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButtonTrades.Size = new System.Drawing.Size(172, 45);
+            this.gunaButtonTrades.Size = new System.Drawing.Size(171, 45);
             this.gunaButtonTrades.TabIndex = 2;
             this.gunaButtonTrades.Text = "Trades";
             this.gunaButtonTrades.TextOffsetX = 15;
@@ -467,14 +473,14 @@ namespace Workbench
             this.gunaButton2.Animated = true;
             this.gunaButton2.AnimationHoverSpeed = 0.07F;
             this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BaseColor = System.Drawing.Color.White;
+            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.gunaButton2.BorderColor = System.Drawing.Color.Black;
             this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton2.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
+            this.gunaButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.gunaButton2.Image = global::Workbench.Properties.Resources.accounting_50px;
             this.gunaButton2.ImageOffsetX = 12;
             this.gunaButton2.ImageSize = new System.Drawing.Size(25, 25);
             this.gunaButton2.Location = new System.Drawing.Point(0, 0);
@@ -482,9 +488,9 @@ namespace Workbench
             this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = global::Workbench.Properties.Resources.accounting_50px_pngl;
+            this.gunaButton2.OnHoverImage = global::Workbench.Properties.Resources.accounting_50px;
             this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Size = new System.Drawing.Size(172, 45);
+            this.gunaButton2.Size = new System.Drawing.Size(171, 45);
             this.gunaButton2.TabIndex = 1;
             this.gunaButton2.Text = "Dashboard";
             this.gunaButton2.TextOffsetX = 15;

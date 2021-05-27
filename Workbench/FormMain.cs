@@ -56,7 +56,7 @@ namespace Workbench
             int szSideMenuSetting = gunaPanelSetting.Size.Width;
             if (szSideMenuSetting < 172)
             {
-                gunaPanelSetting.Size = new Size(172, 513);
+                gunaPanelSetting.Size = new Size(300, 513);
                 gunaButtonSettings.BaseColor = Color.FromArgb(255, 100, 88, 255);
                 gunaButtonSettings.ForeColor = Color.FromArgb(255, 255, 255, 255);
                 gunaButtonSettings.Image = Properties.Resources.settings_50pxl;

@@ -32,15 +32,35 @@ namespace Workbench.Views
             int szMenu = gunaPanelMenuBottom.Size.Height;
             if (szMenu > 45)
             {
-                gunaTransition.ShowSync(gunaPanelMenuBottom);
+                //style
+                //gunaButtonToggle.BaseColor = Color.FromArgb(100, 88, 255);
+                //gunaButtonToggle.BorderColor = Color.FromArgb(100, 88, 255);
+                //gunaButtonToggle.Image = Properties.Resources.collapse_arrow_50px;
+
+                //gunaButtonToggle.OnHoverBaseColor = Color.Transparent;
+                //gunaButtonToggle.OnHoverImage = Properties.Resources.collapse_arrow_50pxd;
+
                 gunaButtonToggle.Image = Properties.Resources.collapse_arrow_50px;
+                gunaTransition.ShowSync(gunaPanelMenuBottom);
+
+                //collapse panel
                 gunaPanelMenuBottom.Size = new Size(1028, 45);
             }
             else
             {
-                gunaTransition.ShowSync(gunaPanelMenuBottom);
+                //style
+                //gunaButtonToggle.BaseColor = Color.White;
+                //gunaButtonToggle.BorderColor = Color.FromArgb(100, 88, 255);
+                //gunaButtonToggle.Image = Properties.Resources.expand_arrow_50pxd1;
+
+                //gunaButtonToggle.OnHoverBaseColor = Color.FromArgb(100, 88, 255);
+                //gunaButtonToggle.OnHoverImage = Properties.Resources.expand_arrow_50px1;
+
                 gunaButtonToggle.Image = Properties.Resources.expand_arrow_50px1;
-                gunaPanelMenuBottom.Size = new Size(1028, 257);
+                gunaTransition.ShowSync(gunaPanelMenuBottom);
+
+                //expand panel
+                gunaPanelMenuBottom.Size = new Size(1028, 347);
             }
         }
 
