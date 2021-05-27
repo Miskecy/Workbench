@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Forms;
+using Workbench.Views;
 
 namespace Workbench
 {
@@ -14,6 +15,7 @@ namespace Workbench
             //Application.SetHighDpiMode(HighDpiMode.SystemAware);
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new FormMain());
             Application.Run(new FormMain());
         }
     }

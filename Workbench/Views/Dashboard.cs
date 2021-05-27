@@ -15,5 +15,15 @@ namespace Workbench.Views
         {
             InitializeComponent();
         }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

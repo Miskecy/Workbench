@@ -118,65 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="accounting_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\accounting_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="accounting_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\accounting_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\add_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_new_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\add_new_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BabyZeroTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\BabyZeroTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="collapse_arrow_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\collapse_arrow_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="decrease_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\decrease_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\delete_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\delete_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dollar_bitcoin_exchange_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\dollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dollar_bitcoin_exchange_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\ldollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="expand_arrow_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\expand_arrow_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="google_sites_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\google_sites_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="increase_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\increase_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="import_csv_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\import_csv_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="investment_portfolio_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\investment_portfolio_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="investment_portfolio_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\investment_portfolio_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ldollar_bitcoin_exchange_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\ldollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="learning_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\learning_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="learning_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\learning_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="less_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\less_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\menu_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,25 +136,88 @@
   <data name="menu_rounded_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\menu_rounded_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_squared_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\menu_squared_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="export_csv_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\export_csv_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="more_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\more_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="learning_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\learning_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="multichannel_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\multichannel_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="accounting_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\accounting_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_csv_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\import_csv_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plus_math_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\plus_math_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plus_math_50px_png2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\plus_math_50px.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="google_sites_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\google_sites_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dollar_bitcoin_exchange_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\ldollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="decrease_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\decrease_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dollar_bitcoin_exchange_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\dollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\add_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\delete_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="investment_portfolio_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\investment_portfolio_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ldollar_bitcoin_exchange_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\ldollar_bitcoin_exchange_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand_arrow_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\expand_arrow_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\more_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\dsettings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\settings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings_50pxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\dsettings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plus_math_50px_png2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\plus_math_50px.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="less_than_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\less_than_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_squared_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\menu_squared_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_new_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\add_new_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse_arrow_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\collapse_arrow_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multichannel_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\multichannel_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\delete_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="learning_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\learning_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accounting_50px_pngl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\accounting_50px.pngl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\update_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zero_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\zero-two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

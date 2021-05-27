@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI.WinForms;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 using Workbench.Views;
@@ -16,6 +17,20 @@ namespace Workbench
             LoadForm(new Dashboard());
         }
 
+        private void LoadForm(Form form)
+        {
+            if (gunaPanelBodyContainer.Controls.Count > 0)
+                gunaPanelBodyContainer.Controls.Clear();
+
+            Form newForm = form as Form;
+            newForm.TopLevel = false;
+            newForm.FormBorderStyle = FormBorderStyle.None;
+            newForm.Dock = DockStyle.Fill;
+            gunaPanelBodyContainer.Controls.Add(newForm);
+            gunaPanelBodyContainer.Tag = newForm;
+            newForm.Show();
+        } 
+
         private void gunaButtonDashboard_Click(object sender, EventArgs e)
         {
 
@@ -24,6 +39,7 @@ namespace Workbench
         private void gunaButtonDashboard_Click_1(object sender, EventArgs e)
         {
             LoadForm(new Trade());
+            gunaButtonTrades.Focus();
         }
 
         private void gunaImageButtonMenu_Click(object sender, EventArgs e)
@@ -39,29 +55,26 @@ namespace Workbench
         {
             int szSideMenuSetting = gunaPanelSetting.Size.Width;
             if (szSideMenuSetting < 172)
+            {
                 gunaPanelSetting.Size = new Size(172, 513);
+                gunaButtonSettings.BaseColor = Color.FromArgb(255, 100, 88, 255);
+                gunaButtonSettings.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                gunaButtonSettings.Image = Properties.Resources.settings_50pxl;
+            }
+            
         }
 
         private void gunaButtonSettingClose_Click(object sender, EventArgs e)
         {
             int szSideMenuSetting = gunaPanelSetting.Size.Width;
             if (szSideMenuSetting > 68)
+            {
                 gunaPanelSetting.Size = new Size(0, 513);
-        }
-
-        private void LoadForm(Form form)
-        {
-            if (gunaPanelBodyContainer.Controls.Count > 0)
-                gunaPanelBodyContainer.Controls.Clear();
-
-            Form newForm = form as Form;
-            newForm.TopLevel = false;
-            newForm.FormBorderStyle = FormBorderStyle.None;
-            newForm.Dock = DockStyle.Fill;
-            gunaPanelBodyContainer.Controls.Add(newForm);
-            gunaPanelBodyContainer.Tag = newForm;
-            newForm.Show();
-        }
+                gunaButtonSettings.BaseColor = Color.FromArgb(255, 100, 88, 255);
+                gunaButtonSettings.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                gunaButtonSettings.Image = Properties.Resources.settings_50pxl;
+            }
+        }        
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {

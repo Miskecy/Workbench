@@ -183,9 +183,39 @@ namespace Workbench.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap export_csv_50px {
+            get {
+                object obj = ResourceManager.GetObject("export_csv_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap google_sites_50px {
             get {
                 object obj = ResourceManager.GetObject("google_sites_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap import_csv_50px {
+            get {
+                object obj = ResourceManager.GetObject("import_csv_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap import_csv_50px_pngl {
+            get {
+                object obj = ResourceManager.GetObject("import_csv_50px_pngl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,6 +376,26 @@ namespace Workbench.Properties {
         internal static System.Drawing.Bitmap settings_50pxl {
             get {
                 object obj = ResourceManager.GetObject("settings_50pxl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap update_50px {
+            get {
+                object obj = ResourceManager.GetObject("update_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zero_two {
+            get {
+                object obj = ResourceManager.GetObject("zero_two", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
