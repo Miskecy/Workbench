@@ -33,13 +33,6 @@ namespace Workbench.Views
             if (szMenu > 45)
             {
                 //style
-                //gunaButtonToggle.BaseColor = Color.FromArgb(100, 88, 255);
-                //gunaButtonToggle.BorderColor = Color.FromArgb(100, 88, 255);
-                //gunaButtonToggle.Image = Properties.Resources.collapse_arrow_50px;
-
-                //gunaButtonToggle.OnHoverBaseColor = Color.Transparent;
-                //gunaButtonToggle.OnHoverImage = Properties.Resources.collapse_arrow_50pxd;
-
                 gunaButtonToggle.Image = Properties.Resources.collapse_arrow_50px;
                 gunaTransition.ShowSync(gunaPanelMenuBottom);
 
@@ -49,13 +42,6 @@ namespace Workbench.Views
             else
             {
                 //style
-                //gunaButtonToggle.BaseColor = Color.White;
-                //gunaButtonToggle.BorderColor = Color.FromArgb(100, 88, 255);
-                //gunaButtonToggle.Image = Properties.Resources.expand_arrow_50pxd1;
-
-                //gunaButtonToggle.OnHoverBaseColor = Color.FromArgb(100, 88, 255);
-                //gunaButtonToggle.OnHoverImage = Properties.Resources.expand_arrow_50px1;
-
                 gunaButtonToggle.Image = Properties.Resources.expand_arrow_50px1;
                 gunaTransition.ShowSync(gunaPanelMenuBottom);
 

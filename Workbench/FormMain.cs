@@ -39,7 +39,6 @@ namespace Workbench
         private void gunaButtonDashboard_Click_1(object sender, EventArgs e)
         {
             LoadForm(new Trade());
-            gunaButtonTrades.Focus();
         }
 
         private void gunaImageButtonMenu_Click(object sender, EventArgs e)
